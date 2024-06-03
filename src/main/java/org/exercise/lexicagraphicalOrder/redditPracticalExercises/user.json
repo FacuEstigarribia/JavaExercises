@@ -1,0 +1,56 @@
+{
+  "users" :[
+    {
+      "name" : "facundo",
+      "salary" : 100,
+      "bankRecords" :[
+        {
+          "dateTime" : "2023-08-27",
+          "amount" : 930
+        }
+      ]
+    },
+    {
+      "name" : "sofia",
+      "salary": 300,
+      "bankRecords" :[
+        {
+          "dateTime" : "2023-12-19",
+          "amount" : 1000
+        },
+        {
+          "dateTime" : "2023-08-19",
+          "amount" : 900
+        }
+      ]
+    },
+    {
+      "name" : "catrina",
+      "salary" : 500,
+      "bankRecords" :[
+        {
+          "dateTime" : "2022-12-19",
+          "amount" : 90
+        },
+        {
+          "dateTime" : "2023-08-19",
+          "amount" : 700
+        }
+      ]
+    },
+    {
+      "name" : "milanesa",
+      "salary" : 50,
+      "bankRecords" :[
+        {
+          "dateTime" : "2023-12-19",
+          "amount" : 100
+        },
+        {
+          "dateTime" : "2023-08-19",
+          "amount" : 180
+        }
+      ]
+    }
+  ]
+}
