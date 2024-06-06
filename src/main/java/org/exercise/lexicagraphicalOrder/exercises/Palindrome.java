@@ -3,7 +3,8 @@ import java.util.*;
 
 public class Palindrome {
             public static void main(String[] args) {
-            System.out.println(isPalindrome("neuquen"));
+                String s = "facund";
+                System.out.println("Palabra: " + s + " - es palindroma? " + isPalindrome2(s));
 
 
 //            Map<String, Integer> map = new HashMap<>();
@@ -36,5 +37,26 @@ public class Palindrome {
                 }
             }
             return 2 > counter;
+        }
+
+        public static boolean isPalindrome2(String s){
+            boolean result = false;
+            int length = s.length();
+            int pivot = length / 2;
+            String sub1 = s.substring(0, pivot);
+            String sub2 = s.substring(pivot + 1, length);
+            char[] subChar1 = sub1.toCharArray();
+            char[] subChar2 = sub2.toCharArray();
+
+            Arrays.sort(subChar1);
+            Arrays.sort(subChar2);
+
+            for(int i = 0; i < subChar1.length; i++){
+                if(subChar1[i] != subChar2[i]){
+                    return result;
+                }
+            }
+            result = true;
+            return result;
         }
 }

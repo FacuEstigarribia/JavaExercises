@@ -36,7 +36,6 @@ public class Streams {
                 System.out.println("Fizz");
             }
         });
-
     }
 
     private static void findSecondSmallestAndLargest(List<Integer> numbers){
